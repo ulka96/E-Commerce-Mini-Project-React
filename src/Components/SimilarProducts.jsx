@@ -56,7 +56,7 @@ const SimilarProducts = () => {
 
       fakeData.map((data) => {
 
-      return  <ProductItem data = {data}
+      return  <ProductItem key={data.id} data = {data}
 
         />
         })

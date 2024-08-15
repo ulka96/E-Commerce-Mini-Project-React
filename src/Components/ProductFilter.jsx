@@ -63,7 +63,7 @@ if (count < 1 || count > 100) {
 }
 
 const selectedProduct = {
-  quantity: count,
+  quantity: +count,
   size: selectedSize,
   product: product,
 }

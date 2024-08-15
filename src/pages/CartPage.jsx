@@ -18,7 +18,7 @@ const CartPage = () => {
     
  
 
-    <div className='flex flex-row gap-[122px]'>
+    <div className='flex flex-row '>
 
     <CartProduct/>
     <OrderSummary/>

@@ -9,6 +9,8 @@ import Cart from "../images/cart.png"
 import Profile from "../images/profile.png"
 
 import Container from './Container';
+import { useSelector } from 'react-redux';
+import { MdNumbers } from 'react-icons/md';
 
 
 const styles = {
@@ -23,6 +25,11 @@ const styles = {
 }
 
 const Header = () => {
+
+const cartItems = useSelector((state) => state.cart)
+.map((cartItem) => cartItem.quantity)
+
+  
   return (
     <header className={styles.header}>
       <Container>
@@ -40,7 +47,7 @@ const Header = () => {
               Home<span className={styles.span}></span>
             </li>
           </Link>
-          <Link to="/categories">
+          <Link to="/products">
             <li className={styles.li}>
               Categories<span className={styles.span}></span>
             </li>
@@ -62,6 +69,7 @@ const Header = () => {
 
       <div className='relative w-[264px] border border-[#E6E7E8] rounded-[6px]'>
   <input 
+
     type="text" 
     placeholder='Search products' 
     className='w-full py-[10px] pl-[36px] rounded-[6px] outline-none placeholder:text-[14px]'  
@@ -71,11 +79,11 @@ const Header = () => {
   </button>
 </div>
 
-        <Link to="/cart">
+        <Link to="/cart-page">
           <button className={styles.btn}>
             <img src={Cart} alt="cart" className="w-5" />
-           <span className="h-3 w-3 rounded-full bg-yellow-400 text-black flex 
-            items-center justify-center text-xs font-black absolute -right-0"></span>
+           {cartItems?.length > 0 && <span className="h-3 w-3 rounded-full bg-yellow-400 text-black flex 
+            items-center justify-center text-xs font-black absolute -right-0">{cartItems.reduce((sum, number) => sum + +number)}</span>}
           </button>
         </Link>
 

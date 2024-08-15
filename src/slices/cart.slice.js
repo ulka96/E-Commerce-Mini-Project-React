@@ -4,14 +4,61 @@ const cartSlice = createSlice({
     name: "cart",
     initialState: [],
     reducers: {
-        addToCart: (state, action) => {
-            const cartItem = action.payload;
+        addToCart : (state, action) => {
+       const cartItem = action.payload;
+
+       const existingCartItem = state.find(
+        (item) => item.product.id === cartItem.product.id
+        && item.size === cartItem.size)
+
+       if(existingCartItem && existingCartItem.size === cartItem.size ) {
+        existingCartItem.quantity += cartItem.quantity;
+       }
+
+       else {
+        state.push(cartItem)
+       }
+
+
+      },
+
+
+
+        removeFromCart: (state, action) => {
+            const cartItem = action.payload
+
+            const existingCartItemIndex = state.findIndex(
+                (item) => item.product.id === cartItem.product.id
+                && item.size === cartItem.size)
+
+           state.splice(existingCartItemIndex, 1)
+
         },
-        removeFromCart: (state, action) => {},
-        increaseProductAmount: (state, action) => {},
-        decreaseProductAmount: (state, action) => {}
+        
+        changeAmount : (state, action) => {
+            const cartItem = action.payload.cartItem
+            const newQuantity = action.payload.newQuantity
+      
+            if(newQuantity === 0) {
+              const existingCartItemIndex = state.findIndex((item) => 
+                item.product.id === cartItem.product.id &&
+                item.size === cartItem.size )
+        
+              state.splice(existingCartItemIndex, 1)
+            }
+             else {
+              const existingCartItem = state.find((item) => item.product.id === cartItem.product.id
+              && item.size === cartItem.size)
+        
+              existingCartItem.quantity = newQuantity;
+             }
+      
+            
+      
+      
+            },
     }
 })
 
 export default cartSlice
-export const {addToCart, removeFromCart, increaseProductAmount, decreaseProductAmount } = cartSlice.actions
+export const {addToCart, removeFromCart, changeAmount } = cartSlice.actions

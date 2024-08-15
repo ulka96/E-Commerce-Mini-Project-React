@@ -81,7 +81,7 @@ useEffect(() => {
      {products.map((product) => {
       return <Product
         product = {product}
-      
+        key={product.id}
       />
      })}
 
