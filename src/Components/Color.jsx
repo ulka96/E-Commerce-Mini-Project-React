@@ -21,7 +21,7 @@ const selectColorsAction = () => {
     
     <span className={`${isSelected && "h-9 w-9 rounded-full border border-black  flex items-center justify-center"}`}>
     <li onClick={selectColorsAction}
-    style={{backgroundColor: color}}
+    style={{backgroundColor: `#${color}`}}
     className={`h-6 w-6   border border-x-2 rounded-full cursor-pointer`}></li>
     </span>
   )

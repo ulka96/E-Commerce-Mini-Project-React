@@ -97,7 +97,7 @@ dispatch(addToCart(selectedProduct))
         <h3 className="text-[12px] font-medium text-[#5C5F6A] text-start tracking-wider mb-4">AVAILABLE COLORS</h3>
         <div className='flex gap-2'>
         <div 
-        style={{backgroundColor: product.color}}
+        style={{backgroundColor: `#${product.color}`}}
         className="h-6 w-6 flex items-center justify-center rounded-full cursor-pointer"
         ></div>
         </div>

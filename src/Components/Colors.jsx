@@ -16,7 +16,7 @@ const colors = useSelector((state) => state.colors.colors)
 
 {
   colors.map((color) => {
-    return <Color color={color}/>
+    return <Color key={color} color={color}/>
   })
 }
 

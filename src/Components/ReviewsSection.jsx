@@ -11,30 +11,13 @@ import SingleReview from './SingleReview'
 // React Icons
 import { IoChevronDown } from "react-icons/io5";
 
-
-
-
 const ReviewsSection = () => {
   return (
     <Container>
-    <div className='flex flex-row gap-8 my-[176px]'>
-    
-    {/* Details / Reviews */}
-    <div className='flex flex-col gap-4 mt-[72px]'>
-        <button className='py-2 pl-[29px] pr-[137px] flex flex-row gap-[10px] bg-[#F6F6F6] rounded-[8px] '>
-            <img src={More} alt="more" className='w-6 h-6' />
-            <p className='text-[14px] font-medium text-[#0E1422]'>Details</p>
-        </button>
 
-        <button className='py-2 pl-[29px] pr-[137px] flex flex-row gap-[10px]  rounded-[8px] '>
-            <img src={EmptyStar} alt="more" className='w-6 h-6' />
-            <p className='text-[14px] font-medium text-[#0E1422]'>Reviews</p>
-        </button>
-    </div>
-    
-    {/* Details text */}
+    {/* Reviews text */}
 
-    <div>
+    <div className='w-[727px] -mt-[72px]'>
         <p className='text-[16px] text-[#0E1422] font-semibold'>Reviews</p>
         <span className='flex gap-4'>
             <p className='text-[32px] text-[#0E1422] font-black'>4.2</p>
@@ -76,7 +59,7 @@ const ReviewsSection = () => {
             border border-[#B6B7BC] rounded-[4px] flex items-center justify-center mx-auto mt-16'>Load more reviews</button>
 
     </div>
-    </div>
+    {/* </div> */}
     </Container>
   )
 }

@@ -32,7 +32,7 @@ const decrementHandler = () => {
 }
 
 const changeHandler = (e) => {
-  setCount(e.target.value)
+  const newQuantity = +e.target.value
   setCount(newQuantity)
   dispatch(changeAmount({cartItem, newQuantity}));
   editCartItem(newQuantity)
@@ -57,7 +57,7 @@ return (
 
 
     <div>
-      <img src={cartItem.product.image} alt="tshirt" className='w-20 mr-8' />
+      <img src={cartItem.product.image} alt="tshirt" className='w-20 mr-8 bg-[#F6F6F6]' />
     </div>
 
 
@@ -68,7 +68,7 @@ return (
      <div className='flex flex-row items-center justify-center mr-auto gap-2'>
          <p className='text-[#5C5F6A] text-[12px] font-medium'>Color:</p>
          <div 
-         style={{backgroundColor: cartItem.product.color}}
+         style={{backgroundColor: `#${cartItem.product.color}`}}
          className='w-3 h-3 rounded-full'></div>
         <p className='text-[12px] text-[#5C5F6A] font-medium '>— Size :</p> <p className='text-[12px] text-[#5C5F6A] font-medium'>{cartItem.size}</p>
     </div>

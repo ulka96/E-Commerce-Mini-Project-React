@@ -14,20 +14,27 @@ import { setCategories } from '../slices/categories.slice';
 import { setColors } from '../slices/colors.slice';
 
 // Hooks
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 
 const Products = () => {
 
-const [products, setProducts] = useState([])  
+  const [allProducts, setAllProducts] = useState([]);
+  const [filteredProducts, setFilteredProducts] = useState([]); 
+
+const selectedCategories = useSelector(
+  (state) => state.categories.selectedCategories
+  );
+
+const selectedColors = useSelector((state) => state.colors.selectedColors);  
+
 
 const dispatch = useDispatch();
 
 const getProducts = async() => {
-const response = await fetch("http://localhost:3000/products");
-const data = await response.json();
-
-setProducts(data)
+  const url = "http://localhost:3000/products?";
+  const response = await fetch(url);
+  const data = await response.json();
 
 const categories = [...new Set(data.map((product) => product.category))];
 const colors = [...new Set(data.map((product) => product.color))];
@@ -36,11 +43,38 @@ const sizes = [...new Set(data.map((product) => product.size))];
 dispatch(setCategories(categories))
 dispatch(setColors(colors))
 
+setAllProducts(data);
+setFilteredProducts(data); // Initially display all products
+
 }
 
-useEffect(() => {
-  getProducts()
-}, [])
+const filterProducts = () => {
+  let products = allProducts;
+  
+  if (selectedCategories.length > 0) {
+  products = products.filter((product) =>
+  selectedCategories.includes(product.category)
+  );
+  }
+  
+  if (selectedColors.length > 0) {
+  products = products.filter((product) =>
+  selectedColors.includes(product.color)
+  );
+  
+  }
+  
+  setFilteredProducts(products);
+  };
+  
+  useEffect(() => {
+  getProducts();
+  }, []);
+  
+  useEffect(() => {
+  filterProducts();
+  }, [selectedCategories, selectedColors]);
+
 
   return (
     <div>
@@ -64,7 +98,7 @@ useEffect(() => {
 
       
       <div className='flex flex-row justify-between mb-4'>
-        <p className='text-[12px] text-[#5C5F6A] font-medium'>Showing 1-9 of 36 results.</p>
+        <p className='text-[12px] text-[#5C5F6A] font-medium'>{`Showing ${filteredProducts.length} products of 36 results.`}</p>
 
         <button className='flex flex-row gap-[6px] ml-[551px] '>
         <p className='text-[12px] text-[#5C5F6A] font-medium uppercase '>Sort by</p>
@@ -78,7 +112,7 @@ useEffect(() => {
 
     <div className='grid grid-cols-3 grid-rows-1 gap-7 '>
      
-     {products.map((product) => {
+     {filteredProducts.map((product) => {
       return <Product
         product = {product}
         key={product.id}

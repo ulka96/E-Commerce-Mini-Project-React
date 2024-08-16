@@ -10,9 +10,6 @@ import { useLocation } from 'react-router-dom'
 import CartPage from '../pages/CartPage'
 
 
-
-
-
 const HeaderFilter = () => {
 
   const {pathname} = useLocation(); 

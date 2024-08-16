@@ -4,7 +4,7 @@
         "id": 1,
         "title": "Classic Monochrome Tees",
         "price": 35.00,
-        "color": "#0000FF",
+        "color": "0000FF",
         "size": ["M", "S", "L"],
         "category": "T-shirt",
         "image": "https://s3-alpha-sig.figma.com/img/7f43/9f88/3d50177232901e42884d41bd843ec040?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=eF-tVWb1PBAuX2qVxsisrmiePI0B5MuIYLJks-lr81Heu6~x7HZMKaefz432ePOMTwr7kq~Dl-lw~oJLDPF7zk8xwL-y1UQwp~8A-XdY9Zcp3YgAjv1lSgXELeSR46yPYMZrt0jSljOUwpVe~wcMBKX9MPW0e3APY5R3-7hRhaF5zxR3aPX5lz10smEWOiPpfAS2OEkmKRp5dmizOasiZQ5j4TDIdDgR9b8f1IGQiMTNMBsSAxQL8f0LWA8qOS740A9ENXtClptcz2ld5TKhW2IbS49Nhb9tWY8O6cL9~Di~dWrhSCpFnpJrp1jTCCAu3~yP9Xy5b-5qLtFslG2IGQ__"
@@ -13,7 +13,7 @@
         "id": 2,
         "title": "Monochromatic Wardrobe",
         "price": 27.00,
-        "color": "#A52A2A",
+        "color": "A52A2A",
         "size": ["XL","XXL", "M"],
         "category": "T-shirt",
         "image": "https://s3-alpha-sig.figma.com/img/ea93/867c/9c00620075282720d457a68b74f69a40?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oSmVbg4pDqnWvSJf7cXw98sKywmqkRZGPzK3puTikqzvNsdMDr5t068dy0x2y8n2N-Q4u1wqV1aaR5lb-WNVzcxZUAgkPVS~fPZwyxWRoxLtXhHsE22lAUb9JKHHJMVY6nlwq~zKKc5xAlUEdByRwdUrRnJ8yGH9Qbm3jJELjFYQpRjsM2YKSXW~EmnbgomxzroPkOyH8IQZrE3FLzRPUeikfbQGcMPdipvwMXrnwymdQS6sUp2wkt0etPJgnwSqrRxFv6D6caKovvJ0RmhaKp-kHZNYvYvdIGB2YxcHuTVWygbHQgXfO2IYg0i9tyuzFHNbH5m6Z-NURJKKoh2U9A__"
@@ -22,7 +22,7 @@
         "id": 3,
         "title": "Essential Neutrals",
         "price": 22.00,
-        "color": "#FFFFFF",
+        "color": "FFFFFF",
         "size": ["S", "L"],
         "category": "T-shirt",
         "image": "https://s3-alpha-sig.figma.com/img/cc73/aa4a/0e8af69dd454db02bbfa89c8b3be4f4a?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=D3KqMNrRUFqbTpX1vp-LgB-jsHkL83dd9Cio56FT1Ebv65UCojP1qi4G1sHEP1jIqt4AkJu3W17HgHo95KT2D702-w~wQAmdst4XtgYFEm9xZ26AqK5n-5NOAMBbTENgmts7csU-xO9aO4ozK0GgweJ90sUyy56HgpHJryzA~tTuQBFFX81b1hxIlgT6tGIrdQM20A8MvbdCgqSFpnvw1dvy1xq1MLOA0wyH~6F5fdjeJFv233AZYUOjxv9EHJO3p9GlH9bvTZ6nlCLYAcNjrxqPd9ZeILeItGwzwYssJbjY3QSN3Eu1nSLC3jr~lwimuRiM-5qVlDedrz5fz7c7ig__"
@@ -31,7 +31,7 @@
         "id": 4,
         "title": "UTRAANET Black",
         "price": 43.00,
-        "color": "#000000",
+        "color": "000000",
         "size": ["S","XXL"],
         "category": "T-shirt",
         "image": "https://s3-alpha-sig.figma.com/img/dbac/8aa5/e758714d6dd93e24df2731f70e55e10c?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FxhjBnRYxCvdbP33tSzjq5DtCaiLGzZqXpXX-ojTYA4TivFmEn8QZHmnfG51kMSUEvkj~OtE3FCGX3QedjMc-ThwaFtGSOnU285tS~k1FH9Z~-7BwjIh69QfzimPtJ2mf2fCqF0e4XSHYnTWWvZRrTmV8c~3mk9fjv~ctsYdacDXxjS6CCtSkBeCRYIx20-Etu7ZWFvz7gMZ6YKBbmo2~05jV~SE-DUR8lcmBAyYZ8sEPuGzy0Xar~qH4rt51IfmSMpvd30cfScc7s-mXoBJc1TxiLutS7RmhbvUCwMG5sl49KyP4u2ZWY3hAX12QUT7HaZ7NS0SMlLBOCdPOMWFmA__"
@@ -40,7 +40,7 @@
         "id": 5,
         "title": "Elegant Ebony Sweatshirts",
         "price": 35.00,
-        "color": "#000000",
+        "color": "000000",
         "size": ["M","L"],
         "category": "Hoodie",
         "image": "https://s3-alpha-sig.figma.com/img/0089/4ce1/a46321deb8faf2c7f96de69b04386982?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cyvk83JbRFrdff6oOngNVSHK9Da2YHzyDjxpA48IsEPenKM~LSuIUg1wTYLRq-Dn2fundgGIj8XbOOKLXnEVPFN5SGqXP9hTHlpiU99JvgTf6rWYxRKfAdauX74i5DYP3I8E60o78a8BemMpEnJ9GxC8E6EJynCJNYb4zm4qiabQqjInakRUwd2ilqGfrrxTrzvCYA4R~pIUwNLJ-bjZuZtHuf4A5xA1~FiMSC0eHaS9JVgJFFujXyrgjH9k-5ugsYcof63EPTphEmeb5fIbxKUYzgmacKdXJlV4iclZMbWyq1U~RByAc-rxfdAHJDwzIUQYmW-DvQtunQBct6M~6Q__"
@@ -49,7 +49,7 @@
         "id": 6,
         "title": "Sleek and Cozy Black",
         "price": 57.00,
-        "color": "#000000",
+        "color": "000000",
         "size": ["M","S"],
         "category": "Hoodie",
         "image": "https://s3-alpha-sig.figma.com/img/3b7b/691a/04200a00273834b0da44eaca1a012086?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Yutk6Jf1in4Liq-A3Z~TSMBmhper8XuaGzLlSJUgJp9Pgptcn8aNwicSK45Jv9x2OckhmIC6moxPsP3l1OL5LrWMkqhO47rKO6aJOUdBb4pB30BBT46Gb3OXniK1dN32fw9Hc40u85furY3~s8PjKqgL8PpCU6REW83WiJ76nG6ShopkYw3txtLhMI1Gad90qrd~VppLLutKI9ZiCw5IdeawGwCW4UX9tbLCbiZ3hV2LgIOJ8ETZAPXnJvu4JTI20ApO4J5RO~kpg8flHNFQyEC5402~zOeHkDalzP7j8~8hoJnkD5p~9S16LtgsDe0ZIQjfcPRoY6myoEEHN8~3Dw__"
@@ -58,7 +58,7 @@
         "id": 7,
         "title": "Raw Black Tees",
         "price": 19.00,
-        "color": "#000000",
+        "color": "000000",
         "size": ["L","S"],
         "category": "T-shirt",
         "image": "https://s3-alpha-sig.figma.com/img/6cc5/4b32/7a503fd4e0b047c0417fdc1b0d0b0a79?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=K6SaX~eqWkicBRqyNegAXc1YhXGJ-jyriS6DVbqf5bJ-RergkVzoxOixwxtzzDCTLENetMCpYiP04i6j0MS2uRG0nkUREZ1sQp9Uam8JZlo3LcvB9Oj3roStCmYC7whZWMiiiOQuP3Lcbucnusiz3jH7actPm4y7BvqaFsG2p-az3hBNiZCpevwNgaXLcdamPBEYgyt3YORZtxKOecqTL45IZ-11KrtGuyfv4hRhgztQ1khmgs7S4vQbn2Od3et7EKzPWOcqv-P9HoA57LS3DxJp8yohhCnU0L9Lzvxy0~bwqdrwqXdJgzdTIPu0KxfE2L74~ooE~mSDy1EyMBiz-g__"
@@ -67,7 +67,7 @@
         "id": 8,
         "title": "MOCKUP Black",
         "price": 30.00,
-        "color": "#000000",
+        "color": "000000",
         "size": ["L"],
         "category": "T-shirt",
         "image": "https://s3-alpha-sig.figma.com/img/b72a/6f3c/9b0fc31bc6ec3e92c8297ba178f4d96a?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mgqUWmi5n2d3xczpBUdGvC4X6SmDI88r5TfUuUP7P8Qo4IqGIkUARP~wOL-Urig26CNb2PF4vSrZ-840vH6NUCY~ednYCVlGbSbxWLOwQTT1YpmjsIvHuAqcKTjHwXpLmYd~guD6k874vvk72r9CxRVI0Fw3nPNg~m7fWxFVtxzfG-V1tOl2tKnNT4OoeqEzPECmZXEU5RFcPvsOaY2uKblLCPfLxH0Oz2q4WNJbgdZcmIxXyqpVh6--ocCcQRMLFollQ7Ajo2D24Ka8pX3rV7yHNIW0yRT2lSaBH-k4DF0XSNy~7yTbvmaVFCH2aZiBfKQPB~sKhbYEGqzfcK8K5g__"
@@ -76,7 +76,7 @@
         "id": 9,
         "title": "White Sneakers",
         "price": 79.99,
-        "color": "#FFFFFF",
+        "color": "000000",
         "size": ["M", "XXL"],
         "category": "Footwear",
         "image": "https://s3-alpha-sig.figma.com/img/a8e6/69c2/8e2c1947b16876117a87f3867e55e8e1?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jrXFswSPpGDMUAz89tPkTq2cZp1-VILrD7~By82knm1GvIiEkOjxxTr-uXMoUjsh~1I8XT0owwBhOFy48gON3Gk3pF2~Q1BHbHPIPUNVrGdvSAu9ob~Zytj6yuvgQh2zw0a6rlOikBEWv3HJpJgYuWREi-lxhIzI~AnTmrS-TQxQe2jPfA9Yj9MCp6o1MfBzkbL3Y5~3Q-FiElbrvCdk6OR98jtSXpsPEtAX43Q67ogq02PxpCdxICjFtN6m49yaDrKOutGILa59smx1A26Hc3F65xXpD5CxCkyUiYaKXbMXDJgWtw2kn3vx6fx1FH~s5-a48jbDYQe8DHC-SV0aqQ__"
@@ -85,7 +85,7 @@
         "id": 10,
         "title": "Athletic Shirt",
         "price": 35.00,
-        "color": "#FFFFFF",
+        "color": "FFFFFF",
         "size": ["L", "XL"],
         "category": "T-shirt",
         "image": "https://s3-alpha-sig.figma.com/img/a7d9/2a09/015b72cbd4cb7c81e06159e063ba609a?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lAIdJxEdUzy3cMpbwR5rqIhZ1iGc-hOgv3ANyKEYhpn6oHBlo8Hw-5VIVuCHCgI7gk0k2HOnLOyrWxWe2TET7VRg8vyQ~dUM3TJ81ciWOLmpH18URL-lkyer0W54h8eSHSSvTVaew0NGc-8yaOCt6l6ZqMs~Dwhu4I9uHK-4z~S-dqMoYwU82cjf8FlyEynmWU7-8msxL8wj2Orpzm~3OX8BYzjFYsMVk2irdvZuPiAcBq1uJGz13hnldsatpDJTiOSvSBqohFL~qtOjLOK6BvlBXAx5Rgy71BT7NfOBsnCwfFq5NAL2Kf~llWLGW5NG~lRCcbBEUm2ahcQWdsaMlA__"
