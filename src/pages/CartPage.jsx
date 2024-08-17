@@ -13,23 +13,20 @@ const CartPage = () => {
   return (
    
     <div>
-      <HeaderFilter/>
+    <HeaderFilter/>
     <Container>
     
- 
-
     <div className='flex flex-row '>
 
     <CartProduct/>
     <OrderSummary/>
 
  
-     </div>
-
+    </div>
 
     </Container>
     <FooterSection2/>
-</div>
+    </div>
 
   )
 }

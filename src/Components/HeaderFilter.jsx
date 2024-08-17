@@ -15,7 +15,7 @@ const HeaderFilter = () => {
   const {pathname} = useLocation(); 
   
   return (
-    <header className={pathname === "/cart-page" ? 'bg-[#F6F6F6] py-8 pl-[40px]' : 'bg-white'}>
+    <header className={pathname === "/cart-page" || pathname === "/sign-up" || pathname === "/sign-in"  ? 'bg-[#F6F6F6] py-8 pl-[40px]' : 'bg-white'}>
     <Container>
    <div>
     <div className='border border-[#F6F6F6]'></div>

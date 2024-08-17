@@ -15,15 +15,21 @@ import { useSelector, useDispatch } from 'react-redux'
 // Actions
 import {addToCart} from "../slices/cart.slice";
 
+// Axios
+import axios from "axios";
 
 const ProductFilter = ({product}) => {
 
 // Size
+
+const sizes = useSelector((state) => state.size.sizes)
 const [count, setCount] = useState(1)
 
 const [selectedSize, setSelectedSize] = useState("");
 
 const dispatch = useDispatch();
+
+const userId = JSON.parse(localStorage.getItem("userId"))
 
 const selectSizeHandler = (size) => {
   setSelectedSize(size)
@@ -46,11 +52,9 @@ const changeHandler = (e) => {
   setCount(e.target.value)
 }
 
-const sizes = useSelector((state) => state.size.sizes)
-
 // Add to Cart
 
-const addToCartHandler = () => {
+const addToCartHandler = async() => {
 
 if(!selectedSize) {
   alert("Please select a size");
@@ -66,7 +70,14 @@ const selectedProduct = {
   quantity: +count,
   size: selectedSize,
   product: product,
+  id: String(Math.random()),
+  userId : userId,
 }
+
+const {data}  = await axios.post(
+  "http://localhost:3000/cart", 
+  selectedProduct
+);
 
 dispatch(addToCart(selectedProduct))
 }

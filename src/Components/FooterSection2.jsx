@@ -14,7 +14,7 @@ const FooterSection2 = () => {
 const {pathname} = useLocation();    
 
   return (
-<div className={pathname === "/cart-page" ? 'bg-[#F6F6F6] py-8 pl-[40px]' : 'bg-white'}>
+<div className={pathname === "/cart-page" || pathname === "/sign-up" || pathname === "/sign-in" ? 'bg-[#F6F6F6] py-8 pl-[40px]' : 'bg-white'}>
 <Container>
 <div className='grid grid-cols-5 grid-rows-1'>
 {/* 1st */}

@@ -5,6 +5,7 @@ import TShirt from "../images/T-shirt.png"
 // Hooks
 import { useState } from 'react'
 import { useDispatch } from 'react-redux'
+import { Link } from 'react-router-dom'
 
 // Actions
 import { removeFromCart, changeAmount } from '../slices/cart.slice'
@@ -57,7 +58,9 @@ return (
 
 
     <div>
+      <Link to={`/products/${cartItem.product.id}`}>
       <img src={cartItem.product.image} alt="tshirt" className='w-20 mr-8 bg-[#F6F6F6]' />
+      </Link>
     </div>
 
 

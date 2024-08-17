@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 // Logo
 import Logo from "../images/Logo.png";
@@ -26,9 +26,17 @@ const styles = {
 
 const Header = () => {
 
+
+
 const cartItems = useSelector((state) => state.cart)
 .map((cartItem) => cartItem.quantity)
 
+const navigate = useNavigate();
+
+const logoutUserId = () => {
+  localStorage.removeItem("userId")
+
+}
   
   return (
     <header className={styles.header}>
@@ -88,7 +96,7 @@ const cartItems = useSelector((state) => state.cart)
         </Link>
 
         <Link to="/profile">
-          <button className={styles.btn}>
+          <button onClick={logoutUserId} className={styles.btn}>
             <img src={Profile} alt="profile" className="w-5" />
           </button>
         </Link>
