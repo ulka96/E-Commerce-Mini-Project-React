@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from './Container';
 import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 const OrderSummary = () => {
   const cartItems = useSelector((state) => state.cart);
@@ -41,10 +42,12 @@ const OrderSummary = () => {
         <button className='py-[10px] bg-[#0E1422] rounded-[4px] text-white'>
           Checkout
         </button>
-
+        
+        <Link to="/products">
         <p className='text-[12px] font-medium text-[#0E1422] underline mt-8 mx-auto'>
           Continue Shopping
         </p>
+        </Link>
       </div>
     </Container>
   );

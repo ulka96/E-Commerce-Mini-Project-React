@@ -1,6 +1,8 @@
 import React from 'react'
 import Container from './Container'
 
+import { Link } from 'react-router-dom'
+
 // Images
 import Arrow from "../images/arrow.png"
 import Ellipse from "../images/ellipse.png"
@@ -24,7 +26,9 @@ const Hero = () => {
             <p className='text-[14px] font-normal mt-3 mb-14'>Discover Our Newest Collection Today.</p>
 
              <Buttons>
-             <span >View Collections</span>
+              <Link to="/products">
+              <button >View Collections</button>
+              </Link>
              <img src={Arrow} className='text-white w-6 h-6' alt=''></img>
              </Buttons>
                 

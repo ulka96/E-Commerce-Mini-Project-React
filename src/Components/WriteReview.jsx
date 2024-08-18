@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Container from '../Components/Container'
+
 import { Link } from 'react-router-dom';
 
 // React icons
@@ -8,10 +9,9 @@ import { FaRegStar } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 
 
-
-const WriteReviewPage = () => {
+const WriteReview = () => {
   return (
-    <div className='bg-[#F6F6F6] h-screen flex justify-center items-center'>
+       <div className='bg-[#F6F6F6] h-screen flex justify-center items-center'>
     <Container >
     <div className='w-[424px]  bg-white  mx-auto flex-col '
    
@@ -62,4 +62,4 @@ const WriteReviewPage = () => {
   )
 }
 
-export default WriteReviewPage
+export default WriteReview

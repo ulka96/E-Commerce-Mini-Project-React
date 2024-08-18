@@ -6,7 +6,7 @@ import Features from '../Components/Features'
 import BestSeller from '../Components/BestSeller'
 import BrowseSection from '../Components/BrowseSection'
 import FeaturedAndListingSection from '../Components/FeaturedAndListingSection'
-
+import FooterWithSubscribe from '../Components/FooterWithSubscribe'
 import FooterSection2 from '../Components/FooterSection2'
 
 
@@ -18,7 +18,7 @@ const HomePage = () => {
       <BestSeller/>
       <BrowseSection/>
       <FeaturedAndListingSection/>
- 
+      <FooterWithSubscribe/>
       <FooterSection2/>
     
       

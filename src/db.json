@@ -196,6 +196,44 @@
         "image": "https://s3-alpha-sig.figma.com/img/7f43/9f88/3d50177232901e42884d41bd843ec040?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=eF-tVWb1PBAuX2qVxsisrmiePI0B5MuIYLJks-lr81Heu6~x7HZMKaefz432ePOMTwr7kq~Dl-lw~oJLDPF7zk8xwL-y1UQwp~8A-XdY9Zcp3YgAjv1lSgXELeSR46yPYMZrt0jSljOUwpVe~wcMBKX9MPW0e3APY5R3-7hRhaF5zxR3aPX5lz10smEWOiPpfAS2OEkmKRp5dmizOasiZQ5j4TDIdDgR9b8f1IGQiMTNMBsSAxQL8f0LWA8qOS740A9ENXtClptcz2ld5TKhW2IbS49Nhb9tWY8O6cL9~Di~dWrhSCpFnpJrp1jTCCAu3~yP9Xy5b-5qLtFslG2IGQ__"
       },
       "userId": "60bd89ff-3c71-4f3f-97e2-890554ba1fe4"
+    },
+    {
+      "id": "0.3365014038116547",
+      "quantity": 1,
+      "size": "S",
+      "product": {
+        "id": "1",
+        "title": "Classic Monochrome Tees",
+        "price": 35,
+        "color": "0000FF",
+        "size": [
+          "M",
+          "S",
+          "L"
+        ],
+        "category": "T-shirt",
+        "image": "https://s3-alpha-sig.figma.com/img/7f43/9f88/3d50177232901e42884d41bd843ec040?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=eF-tVWb1PBAuX2qVxsisrmiePI0B5MuIYLJks-lr81Heu6~x7HZMKaefz432ePOMTwr7kq~Dl-lw~oJLDPF7zk8xwL-y1UQwp~8A-XdY9Zcp3YgAjv1lSgXELeSR46yPYMZrt0jSljOUwpVe~wcMBKX9MPW0e3APY5R3-7hRhaF5zxR3aPX5lz10smEWOiPpfAS2OEkmKRp5dmizOasiZQ5j4TDIdDgR9b8f1IGQiMTNMBsSAxQL8f0LWA8qOS740A9ENXtClptcz2ld5TKhW2IbS49Nhb9tWY8O6cL9~Di~dWrhSCpFnpJrp1jTCCAu3~yP9Xy5b-5qLtFslG2IGQ__"
+      },
+      "userId": null
+    },
+    {
+      "id": "0.38711602698256553",
+      "quantity": 2,
+      "size": "S",
+      "product": {
+        "id": "1",
+        "title": "Classic Monochrome Tees",
+        "price": 35,
+        "color": "0000FF",
+        "size": [
+          "M",
+          "S",
+          "L"
+        ],
+        "category": "T-shirt",
+        "image": "https://s3-alpha-sig.figma.com/img/7f43/9f88/3d50177232901e42884d41bd843ec040?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=eF-tVWb1PBAuX2qVxsisrmiePI0B5MuIYLJks-lr81Heu6~x7HZMKaefz432ePOMTwr7kq~Dl-lw~oJLDPF7zk8xwL-y1UQwp~8A-XdY9Zcp3YgAjv1lSgXELeSR46yPYMZrt0jSljOUwpVe~wcMBKX9MPW0e3APY5R3-7hRhaF5zxR3aPX5lz10smEWOiPpfAS2OEkmKRp5dmizOasiZQ5j4TDIdDgR9b8f1IGQiMTNMBsSAxQL8f0LWA8qOS740A9ENXtClptcz2ld5TKhW2IbS49Nhb9tWY8O6cL9~Di~dWrhSCpFnpJrp1jTCCAu3~yP9Xy5b-5qLtFslG2IGQ__"
+      },
+      "userId": null
     }
   ],
   "users": [

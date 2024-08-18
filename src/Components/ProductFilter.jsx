@@ -11,6 +11,7 @@ import Size from "./Size"
 // Hooks
 import { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
+import { Link } from 'react-router-dom'
 
 // Actions
 import {addToCart} from "../slices/cart.slice";
@@ -88,7 +89,9 @@ dispatch(addToCart(selectedProduct))
 
      <div className='flex flex-row w-[438px] justify-between'>
         <p className='text-[24px] font-bold text-[#0E1422] w-full'>{product?.title}</p>
+        <Link to="/share">
         <button><img src={Share} alt="shareIcon" className='w-4' /></button>
+        </Link>
      </div>
 
      <div className='flex flex-row w-[438px] gap-2 mt-3 mb-6'>
@@ -145,7 +148,8 @@ dispatch(addToCart(selectedProduct))
           type="number"
           min="1"
           max="100"
-          className=" text-[14px] text-center font-medium outline-none border-none w-full"
+          className=" text-[14px] text-center font-medium outline-none border-none w-full appearance-none"
+      
         />
         <button onClick={incrementHandler} className="text-2xl text-[#5C5F6A]">+</button>
         

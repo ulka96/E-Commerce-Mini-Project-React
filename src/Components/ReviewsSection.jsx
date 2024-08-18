@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 // Images
 import More from "../images/More.png"
@@ -28,9 +29,11 @@ const ReviewsSection = () => {
         {/* Button Review */}
        
         <div>
+            <Link to="/review">
             <button className='py-[9.5px] px-6 border border-[#0E1422] rounded-[4px] my-10'>
                 Write a review
             </button>
+            </Link>
         </div>
          
         {/* Sort By */}

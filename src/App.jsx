@@ -55,7 +55,7 @@ useEffect(() => {
           <Route path="/" element={<HomePage/>} />
           <Route path="/products/:id" element={<ProductDetailsPage/>} />
           <Route path="/product-review" element={<ProductReviewPage/>} />
-          <Route path="/share-page" element={<SharePage/>} />
+          <Route path="/share" element={<SharePage/>} />
           <Route path="/review" element={<WriteReviewPage/>} />
           <Route path="/products" element={<ListingPage/>} />
           <Route path="/cart-page" element={<CartPage/>} />
